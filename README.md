@@ -1,6 +1,6 @@
-# bitcoin-adapter
+# dogecoin-adapter
 
-bitcoin-adapter适配了openwallet.AssetsAdapter接口，给应用提供了底层的区块链协议支持。
+dogecoin-adapter适配了openwallet.AssetsAdapter接口，给应用提供了底层的区块链协议支持。
 
 ## 项目依赖库
 
