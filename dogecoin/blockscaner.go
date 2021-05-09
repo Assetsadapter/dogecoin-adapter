@@ -83,7 +83,7 @@ func NewBTCBlockScanner(wm *WalletManager) *BTCBlockScanner {
 
 	bs.extractingCH = make(chan struct{}, maxExtractingSize)
 	bs.wm = wm
-	bs.IsScanMemPool = true
+	bs.IsScanMemPool = false
 	bs.RescanLastBlockCount = 0
 	bs.stopSocketIO = make(chan struct{})
 	bs.BTCBlockObservers = make(map[BTCBlockScanNotificationObject]bool)
